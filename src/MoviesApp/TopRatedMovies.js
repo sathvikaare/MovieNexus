@@ -2,12 +2,12 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import MovieCard from './movieCard';
-import { BeatLoader, SyncLoader } from 'react-spinners';
+import { BeatLoader} from 'react-spinners';
 
 
 
 const API_KEY = '8bcb42fc';
-const API_URL = 'http://www.omdbapi.com/';
+const API_URL = 'https://www.omdbapi.com/';
 
 function TopRatedMovies() {
   const [movies, setMovies] = useState([]);
