@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { fetchMovies } from './api';
 import MovieCard from './movieCard';
-import { BeatLoader } from 'react-spinners';
+// import { BeatLoader } from 'react-spinners';
 
 const MovieList = ({ query }) => {
   const [movies, setMovies] = useState([]);
