@@ -7,7 +7,7 @@ import { BeatLoader, SyncLoader } from 'react-spinners';
 
 
 const API_KEY = '8bcb42fc';
-const API_URL = 'http://www.omdbapi.com/';
+const API_URL = 'https://www.omdbapi.com/';
 
 function TopRatedMovies() {
   const [movies, setMovies] = useState([]);

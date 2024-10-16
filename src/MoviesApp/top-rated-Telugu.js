@@ -4,7 +4,7 @@ import MovieCard from './movieCard';
 import { BeatLoader} from 'react-spinners';
 
 const API_KEY = '8bcb42fc';
-const API_URL = 'http://www.omdbapi.com/';
+const API_URL = 'https://www.omdbapi.com/';
 
 function TeluguTopRated() {
   const [teluguMovies, setTeluguMovies] = useState([]);
